@@ -9,7 +9,7 @@
 
 ## 平台简介
 
-* 应用框架基于[uniapp](https://uniapp.dcloud.net.cn/)，支持小程序、H5、Android和IOS。
+* 应用框架基于[uniapp](https://uniapp.dcloud.net.cn/)，目前仅支持H5。
 * 前端组件采用[uni-ui](https://github.com/dcloudio/uni-ui)，全端兼容的高性能UI框架。
 
 ## 演示图
