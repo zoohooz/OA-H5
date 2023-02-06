@@ -1,0 +1,454 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+  "pages": [{
+    "path": "pages/login",
+    "style": {
+      "navigationBarTitleText": "登录"
+    }
+  }, {
+    "path": "pages/index",
+    "style": {
+      "navigationBarTitleText": "数智管理移动端系统",
+      "navigationStyle": "custom"
+    }
+  }, {
+    "path": "pages/work/index",
+    "style": {
+      "navigationBarTitleText": "工作台",
+			"navigationBarTextStyle":"white",
+			"navigationBarBackgroundColor":"#0181fe"
+    }
+  }, {
+    "path": "pages/mine/index",
+    "style": {
+      "navigationBarTitleText": "我的",
+			"navigationBarTextStyle":"white",
+			"navigationBarBackgroundColor":"#0181fe"
+    }
+  }, {
+    "path": "pages/mine/avatar/index",
+    "style": {
+      "navigationBarTitleText": "修改头像"
+    }
+  }, {
+    "path": "pages/mine/info/index",
+    "style": {
+      "navigationBarTitleText": "个人信息"
+    }
+  }, {
+    "path": "pages/mine/info/edit",
+    "style": {
+      "navigationBarTitleText": "编辑资料"
+    }
+  }, {
+    "path": "pages/mine/pwd/index",
+    "style": {
+      "navigationBarTitleText": "修改密码"
+    }
+  }, {
+    "path": "pages/mine/setting/index",
+    "style": {
+      "navigationBarTitleText": "应用设置"
+    }
+  }, {
+    "path": "pages/mine/help/index",
+    "style": {
+      "navigationBarTitleText": "常见问题"
+    }
+  }, {
+    "path": "pages/mine/about/index",
+    "style": {
+      "navigationBarTitleText": "关于我们"
+    }
+  }, {
+    "path": "pages/common/webview/index",
+    "style": {
+      "navigationBarTitleText": "浏览网页"
+    }
+  }, {
+    "path": "pages/common/textview/index",
+    "style": {
+      "navigationBarTitleText": "浏览文本"
+    }
+  },
+	// 系统
+	{
+	  "path": "pages/system/user/index",
+	  "style": {
+	    "navigationBarTitleText": "用户管理"
+	  }
+	},
+	{
+	  "path": "pages/system/user/userEdit",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  }
+	},
+	{
+	  "path": "pages/system/user/authRole",
+	  "style": {
+	    "navigationBarTitleText": "分配角色"
+	  }
+	},
+	// 系统 岗位管理
+	{
+	  "path": "pages/system/post/index",
+	  "style": {
+	    "navigationBarTitleText": "岗位管理"
+	  }
+	},
+	{
+	  "path": "pages/system/post/postDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  }
+	},
+	// 系统管理 角色管理
+	{
+	  "path": "pages/system/role/index",
+	  "style": {
+	    "navigationBarTitleText": "角色管理"
+	  }
+	},
+	{
+	  "path": "pages/system/role/roleEdit",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  }
+	},
+	// 系统 字典管理
+	{
+	  "path": "pages/system/dict/index",
+	  "style": {
+	    "navigationBarTitleText": "字典管理"
+	  }
+	},{
+	  "path": "pages/system/dict/dictDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  }
+	},{
+	  "path": "pages/system/dict/data",
+	  "style": {
+	    "navigationBarTitleText": "字典数据"
+	  }
+	},{
+	  "path": "pages/system/dict/dataDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  }
+	},
+	// 系统 参数设置
+	{
+	  "path": "pages/system/config/index",
+	  "style": {
+	    "navigationBarTitleText": "参数设置"
+	  }
+	},{
+	  "path": "pages/system/config/configDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  }
+	},
+	// 系统 通知公告
+	{
+	  "path": "pages/system/notice/index",
+	  "style": {
+	    "navigationBarTitleText": "通知公告"
+	  }
+	},{
+	  "path": "pages/system/notice/noticeDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  }
+	},
+	// 系统 部门管理
+	{
+	  "path": "pages/system/dept/index",
+	  "style": {
+	    "navigationBarTitleText": "部门管理"
+	  }
+	},
+	{
+	  "path": "pages/system/dept/deptDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+		}
+	},
+	{
+	  "path": "pages/system/role/authUser",
+	  "style": {
+	    "navigationBarTitleText": "分配用户"
+	  }
+	},
+	{
+	  "path": "pages/system/role/selectUser",
+	  "style": {
+	    "navigationBarTitleText": "选择用户"
+	  }
+	},
+	//在线用户
+	{
+	  "path": "pages/monitor/online/index",
+	  "style": {
+	    "navigationBarTitleText": "在线用户"
+	  }
+	},
+	// 工作流
+	{
+	  "path": "components/Process/Verify",
+	  "style": {
+	    "navigationBarTitleText": "提交申请"
+	  } 
+	},
+	// 工作流 选择人员
+	{
+	  "path": "pages/components/user/choose-workflow-user",
+	  "style": {
+	    "navigationBarTitleText": "用户"
+	  } 
+	},
+	// 工作流 抄送人员
+	{
+	  "path": "pages/components/user/sys-dept-user",
+	  "style": {
+	    "navigationBarTitleText": "用户"
+	  } 
+	},
+	// 工作流 委托申请
+	{
+	  "path": "pages/components/user/delegate",
+	  "style": {
+	    "navigationBarTitleText": "委托申请"
+	  } 
+	},
+	// 工作流 转办申请
+	{
+	  "path": "pages/components/user/transmit",
+	  "style": {
+	    "navigationBarTitleText": "转办申请"
+	  } 
+	},
+	// 工作流 审批历史
+	{
+	  "path": "components/Process/History",
+	  "style": {
+	    "navigationBarTitleText": "审批历史"
+	  } 
+	},
+	// 工作流 待办任务 办理页面
+	{
+	  "path": "pages/components/approvalForm",
+	  "style": {
+	    "navigationBarTitleText": "流程审批进度跟踪"
+	  } 
+	},
+	// 工作流 驳回
+	{
+	  "path": "components/Process/Back",
+	  "style": {
+	    "navigationBarTitleText": "审批驳回"
+	  } 
+	},
+	// 个人待办 待办任务
+	{
+	  "path": "pages/workflow/task/personalWaiting",
+	  "style": {
+	    "navigationBarTitleText": "待办任务"
+	  } 
+	},
+	// 已办任务
+	{
+	  "path": "pages/workflow/task/personalFinish",
+	  "style": {
+	    "navigationBarTitleText": "已办任务"
+	  } 
+	},
+	// 业务模块
+	{
+	  "path": "pages/business/leave/index",
+	  "style": {
+	    "navigationBarTitleText": "请假业务"
+	  } 
+	},
+	{
+	  "path": "pages/business/leave/leaveDetail",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  } 
+	},
+	// 业务模块
+	{
+	  "path": "pages/business/reimburse/index",
+	  "style": {
+	    "navigationBarTitleText": "报销业务"
+	  } 
+	},
+	{
+	  "path": "pages/business/reimburse/burseDetail",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  } 
+	},
+	// 业务模块 备用金
+	{
+	  "path": "pages/business/loan/index",
+	  "style": {
+	    "navigationBarTitleText": "借款/备用金"
+	  } 
+	},
+	{
+	  "path": "pages/business/loan/loanDetail",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  } 
+	},
+	// 业务模块 出差业务
+	{
+	  "path": "pages/business/travel/index",
+	  "style": {
+	    "navigationBarTitleText": "出差业务"
+	  } 
+	},
+	{
+	  "path": "pages/business/travel/travelDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  } 
+	},
+	// 业务模块 离职申请
+	{
+	  "path": "pages/business/resignationApproval/index",
+	  "style": {
+	    "navigationBarTitleText": "离职申请",
+		"navigationBarTextStyle":"white",
+		"navigationBarBackgroundColor":"#0181fe"
+	  } 
+	},
+	{
+	  "path": "pages/business/resignationApproval/resignationApprovalDetails",
+	  "style": {
+	    "navigationBarTitleText": "审批详情",
+		"navigationBarTextStyle":"white",
+		"navigationBarBackgroundColor":"#0181fe"
+	  } 
+	},
+	// 业务模块 供应商业务
+	{
+	  "path": "pages/business/information/index",
+	  "style": {
+	    "navigationBarTitleText": "供应商业务"
+	  } 
+	},
+	{
+	  "path": "pages/business/information/informationDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  } 
+	},
+	// 业务模块 发票管理
+	{
+	  "path": "pages/business/invoice/index",
+	  "style": {
+	    "navigationBarTitleText": "发票管理"
+	  } 
+	},
+	{
+	  "path": "pages/business/invoice/invoiceDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  } 
+	},
+	// 业务模块 加班申请
+	{
+	  "path": "pages/business/overtime/index",
+	  "style": {
+	    "navigationBarTitleText": "加班申请",
+		"navigationBarTextStyle":"white",
+		"navigationBarBackgroundColor":"#0181fe"
+	  } 
+	},
+	{
+	  "path": "pages/business/overtime/overtimeDetail",
+	  "style": {
+	    "navigationBarTitleText": "审批详情",
+		"navigationBarTextStyle":"white",
+		"navigationBarBackgroundColor":"#0181fe"
+	  } 
+	},
+	// 业务模块 转正申请
+	{
+	  "path": "pages/business/regularWorker/index",
+	  "style": {
+	    "navigationBarTitleText": "转正申请",
+		"navigationBarTextStyle":"white",
+		"navigationBarBackgroundColor":"#0181fe"
+	  } 
+	},
+	{
+	  "path": "pages/business/regularWorker/regularWorkerDetail",
+	  "style": {
+	    "navigationBarTitleText": "审批详情",
+		"navigationBarTextStyle":"white",
+		"navigationBarBackgroundColor":"#0181fe"
+	  } 
+	},
+	// 业务模块 涨薪申请
+	{
+	  "path": "pages/business/salary/index",
+	  "style": {
+	    "navigationBarTitleText": "涨薪申请"
+	  } 
+	},
+	{
+	  "path": "pages/business/salary/salaryDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  } 
+	},
+	// 业务模块 付款跟踪
+	{
+	  "path": "pages/business/payment/index",
+	  "style": {
+	    "navigationBarTitleText": "付款跟踪"
+	  } 
+	},
+	{
+	  "path": "pages/business/payment/paymentDetails",
+	  "style": {
+	    "navigationBarTitleText": ""
+	  } 
+	}
+	], 
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/index",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/home_.png",
+        "text": "首页"
+      }, {
+        "pagePath": "pages/work/index",
+        "iconPath": "static/img/tabbar/work.png",
+        "selectedIconPath": "static/img/tabbar/work_.png",
+        "text": "工作台"
+      }, {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/img/tabbar/mine.png",
+        "selectedIconPath": "static/img/tabbar/mine_.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "数智管理",
+    "navigationBarBackgroundColor": "#FFFFFF"
+  }
+}
+

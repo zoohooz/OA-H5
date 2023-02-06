@@ -1,0 +1,136 @@
+// 页面行间隔
+.example {
+		padding: 15px;
+		.uni-input-input:disabled{
+			-webkit-text-fill-color: #4b4848;
+		}
+		.uni-textarea-textarea:disabled{
+			-webkit-text-fill-color: #4b4848;
+		}
+		
+		.form{
+			padding-bottom: 50px;
+		}
+	}
+	
+.uni-select{
+	background-color: white;
+}
+
+// 表格里面的按钮
+.table_button{
+	display: flex
+}
+
+// 工作流的按钮
+.formButtom{
+	display: flex;
+	justify-content: center;
+}
+
+// 解决表格头部和第一行无法横向拖动问题
+.uni-collapse{
+	overflow-x: scroll;
+}
+
+// uni-table表格单元格宽度模式
+.uni-table{
+	table-layout: fixed;
+	// word-wrap: break-word;
+	//表格溢出隐藏
+	.uni-table-td{
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+// 表单提交按钮
+.form_sub_button{
+	position: fixed;
+	bottom: 15px;
+	left: 0px;
+	width: 100%;
+	padding: 0px 15px;
+	display: flex;
+	uni-button{
+		width: 100%;
+	}
+}
+
+// 分段器
+.segmented-control{
+	background-color: white;
+	margin-bottom: 2px;
+	.segmented-control__item{
+		// 未选中
+		.segmented-control__text{
+			// color: #606266 !important;
+		}
+		// 选中
+		.segmented-control__item--text{
+			font-weight: 600;
+		}
+	}
+}
+
+// 列表详情页
+.form_list_content{
+.uni-list-item {
+		.slot-body {
+			flex: 1;
+			overflow: hidden;
+			// white-space: nowrap;行内溢出 
+			.dict_tag {
+				padding: 8px 8px;
+				.uni-tag{
+					padding: 2px 4px
+				}
+			}
+		}
+
+		.list_title {
+			.uni-title__box {
+				flex: unset;
+			}
+
+			/* #ifndef APP-NVUE */
+			display: flex;
+			/* #endif */
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.list_body {
+			display: flex;
+			flex-direction: column;
+
+			.list_body_content {
+				display: flex;
+				padding-top: 8px;
+				font-size: 14px;
+			}
+		}
+
+		.list_footer {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: flex-end;
+			padding-top: 10px;
+			font-size: 12px;
+
+			uni-text:nth-of-type(1) {
+				color: #b1b1b1;
+			}
+
+			uni-text:nth-of-type(2) {
+				font-size: 14px;
+			}
+		}
+
+		::v-deep .uni-list-item__extra {
+			align-items: flex-start;
+		}
+	}
+}
